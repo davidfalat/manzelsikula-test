@@ -1,4 +1,3 @@
-
 /*=== Header area start ===*/
 
 @import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap');
@@ -84,7 +83,7 @@ button:focus {
 }
 
 .header-item ul li a:hover {
-   background: #EE1936;
+    background: #EE1936;
 }
 
 .header-item ul li a.active {
@@ -227,6 +226,7 @@ button:focus {
     border-bottom: 2px solid #fff;
 }
 
+
 /*=== footer area start ===*/
 
 .footer-area {
@@ -267,6 +267,7 @@ button:focus {
     width: 200px;
 }
 
+
 /*=== page 2 start ===*/
 
 .header-area2 {
@@ -276,7 +277,6 @@ button:focus {
 .footer-area-inner h2 {
     font-size: 70px;
     font-weight: 400;
-    color: #2c3189;
     text-align: center;
     margin: 0 0 30px;
 }
@@ -288,30 +288,24 @@ button:focus {
 .footer-area-inner {
     padding: 40px 0 45px;
     background: #EBECEE;
+    background-image: url(/images/02.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    color: white;
 }
 
 .footer-area-inner ul {
     display: inline-block;
     text-align: left;
+    color: white;
 }
 
 .footer-area-inner ul li {
     font-size: 50px;
     font-weight: 700;
-    color: #ed1a37;
 }
 
-.footer-area-inner ul li:nth-of-type(2) {
-    color: #ee6623;
-}
-
-.footer-area-inner ul li:nth-of-type(3) {
-    color: #ee6a28;
-}
-
-.footer-area-inner ul li:nth-of-type(4) {
-    color: #855b47;
-}
 
 /*=== page 3 start ===*/
 
@@ -337,6 +331,7 @@ button:focus {
     display: block;
 }
 
+
 /*
 ====================================
 large Screen - Others
@@ -357,6 +352,7 @@ large Screen - Others
         font-size: 45px;
     }
 }
+
 
 /*
 ====================================
@@ -443,16 +439,20 @@ Small Screen - Tablate
         font-size: 36px;
         margin-bottom: 40px;
     }
-
     .ft-wrap {
         padding-top: 40px;
         background-color: #EBECEE;
+        background-image: url(/images/02.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position-x: -16px;
+        background-position-y: -196px;
     }
     .footer-area-inner {
         padding: 30px 0 45px;
-        
     }
 }
+
 
 /*
 ====================================
@@ -562,19 +562,18 @@ Small Screen - Mobile
         margin-bottom: 30px;
     }
     @media screen and (max-width: 367px) {
-
-    .montaze-item h2 {
-        font-size: 20px;
-        text-align: center;
-        display: inline-block;
-    }
-    .montaze-item h2:after {
-        width: 15px;
-        left: -25px;
-    }
-    .montaze-item h2:before {
-        width: 15px;
-        right: -25px;
-    }
+        .montaze-item h2 {
+            font-size: 20px;
+            text-align: center;
+            display: inline-block;
+        }
+        .montaze-item h2:after {
+            width: 15px;
+            left: -25px;
+        }
+        .montaze-item h2:before {
+            width: 15px;
+            right: -25px;
+        }
     }
 }
