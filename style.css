@@ -288,7 +288,7 @@ button:focus {
 .footer-area-inner {
     padding: 40px 0 45px;
     background: #EBECEE;
-    background-image: url(/images/02.png);
+    background-image: url(images/02.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -442,7 +442,7 @@ Small Screen - Tablate
     .ft-wrap {
         padding-top: 40px;
         background-color: #EBECEE;
-        background-image: url(/images/02.png);
+        background-image: url(images/02.png);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position-x: -16px;
